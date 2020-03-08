@@ -11,7 +11,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   GoogleMapController mapController;
 
-  final LatLng _center = const LatLng(49.209525, 16.609707);
+  final LatLng _center = const LatLng(49.207548, 16.586925);
 
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Donicka app'),
+          title: Text('Doggo app'),
           backgroundColor: Colors.green[700],
         ),
         body: GoogleMap(
