@@ -1,0 +1,12 @@
+flutter
+
+UI: map user, zoom same as google map default
+one button: take a pic - open camera - save it and add name of picture to db
+
+
+get gps coord of device - post it to api
+
+post - add event - request gps coord of device
+taking pictu
+write it to db via api with optional text or image (img save locally?)
+

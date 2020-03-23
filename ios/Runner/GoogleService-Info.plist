@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>641445913156-vcbgh9t11blambvgb27t4913081d1u80.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.641445913156-vcbgh9t11blambvgb27t4913081d1u80</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCEkfaaj-GqcsdtbbKAf3-uNfA_o15g_9M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>641445913156</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.fireship.doggoapp</string>
+	<key>PROJECT_ID</key>
+	<string>mapy-270514</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mapy-270514.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:641445913156:ios:8abd2b3f2201b71ee29211</string>
+	<key>DATABASE_URL</key>
+	<string>https://mapy-270514.firebaseio.com</string>
+</dict>
+</plist>
