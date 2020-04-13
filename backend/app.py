@@ -1,10 +1,17 @@
 from flask import Flask
-from database.db import initialize_db
+from flask_bcrypt import Bcrypt
 from flask_restful import Api
-from resources.routes import initialize_routes
+from flask_jwt_extended import JWTManager
 
+from database.db import initialize_db
+from resources.routes import initialize_routes
+#
 app = Flask(__name__)
+app.config.from_envvar('ENV_FILE_LOCATION')
+
 api = Api(app)
+bcrypt = Bcrypt(app)
+jwt = JWTManager(app)
 
 app.config['MONGODB_SETTINGS'] = {
     'host': 'mongodb+srv://filo123:drobcek123Drobcek@cluster0-hluxw.gcp.mongodb.net/test?retryWrites=true&w=majority'
@@ -12,21 +19,9 @@ app.config['MONGODB_SETTINGS'] = {
 
 initialize_db(app)
 initialize_routes(api)
-#app.register_blueprint(markers)
+# app.register_blueprint(markers)
 
 app.run()
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # from flask import Blueprint, request, Flask, Response
