@@ -14,7 +14,7 @@ API enpoints:
 - post new marker
 /api/marker
 - get specific marker
-/api/markers/<id>
+/api/marker/\<id\>
  
 - put/delete works too, JWT protected
 
